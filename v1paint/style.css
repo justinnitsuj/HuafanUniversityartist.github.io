@@ -38,11 +38,13 @@ header .navbar a{
     color:lightgray;
     padding-left:10px;
 }
-header .logo{
+header h1{
     font-size: 22px;
     font-weight: normal;
     color:black;
+    padding-right: 430px;
 }
+
 header .navbar a:hover{
     font-size: 20px;
     font-weight: 900;
@@ -80,7 +82,7 @@ section{
     flex-wrap: wrap;
     gap:10px;
     min-height: 500px;
-    align-items: center;
+
     background: url(../v1paint/images/the-town-bg-01.jpg) no-repeat;
     background-size: cover;
     background-position: center;
@@ -171,6 +173,14 @@ section{
     padding: 0 20px;
     text-align: center;
 }
+.artist-second .artist-text h3{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 18px;
+}
 .artist-second .work-text p{
     font-size: 20px;
     /* margin-top: 10px; */
@@ -192,7 +202,7 @@ section{
     gap:10px;
     min-height: 500px;
     align-items: center;
-    background: url(../v1paint/images/the-town-bg-01.jpg) no-repeat;
+    background: url(../v1paint/images/department-menu.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -257,11 +267,26 @@ section{
     
 }
 @media(max-width:449px){
+    .home{
+        display:flex;
+        flex-wrap: wrap;
+        gap:10px;
+        min-height: 300px;
+     
+        background: url(../v1paint/images/the-town-bg-01.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
     .content h2{
-        font-size: 26px;
+        font-size: 40px;
         color:brown;
     }
     .content h3{
+        font-size: 18px;
+        color:brown;
+    }
+    .content h4{
         font-size: 20px;
         color:brown;
     }
@@ -269,11 +294,14 @@ section{
         font-size: 18px;
         font-family: PMingLiU;
         color:black;
+        padding: 20px;
+        line-height: 30px;
     }
     .introduce-content h3{
         font-size: 25px;
         color: brown;
         padding-left: 10px;
+        padding-bottom: 20px;
     }
     .introduce-content p{
         font-size: 18px;
@@ -290,19 +318,35 @@ section{
     .nav-tabs .nav-link.active{
         color:black;
         background-color: white;
-        
+        font-weight: bolder;
     }
-    .nav-link{
+    .nav-tabs .nav-link{
         font-size:15px;
         background-color: lightgrey;
         color:black;
+        font-weight: bolder;
+        
+    }
+    .artist-second .work-text h6{
+        font-size: 18px;
+        color:brown;
+        font-weight: bolder;
+        margin-top: 20px;
+        margin-left: -10px;
+        
+        padding: 20px;
     }
     .artist-second .work-text p{
         font-size: 18px;
-        margin-top: 10px; 
+        
+        margin-top: -30px;
         padding: 10px;
         
     }
+    .artist-second .work-text .highlight-text p{
+        font-size: 16px;
+        margin-top: -30px;
+    } 
     .artist-second .work-text h2{
         font-size: 25px;
         padding-bottom: 10px;
@@ -310,10 +354,45 @@ section{
         color:brown;
         font-weight: bolder;
     }
-    .artist-second .work-text .work-pic{
-        width:300px;
+    .artist-second .work-text h5{
+        font-size: 18px;
+        margin-top: 10px; 
+        padding: 10px;
         text-align: center;
-        padding-left: 120px;
-        margin-top: 20px;
+
+    }
+    .artist-second .work-text .work-pic{
+        /* width:400px; */
+        vertical-align: middle;
+        
+    }
+    .department-content h3{
+        font-size: 25px;
+        color: brown;
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+    .department-content p{
+        font-size: 18px;
+        color: black;
+        padding:10px;
+        margin-bottom: 10px;
+        letter-spacing: 2px;
+    }
+    .picture-content img{
+        width: 100%;
+        vertical-align: middle;
+        margin-bottom: 10px;  
+        padding-bottom: 10px;
+    }
+    header h1{
+        font-size: 22px;
+        font-weight: normal;
+        color:black;
+        padding-right: 65px;
+    }
+    .container-1 .map{
+        margin-top: 10px;
+        padding-bottom: 20px;
     }
 }
