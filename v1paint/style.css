@@ -113,6 +113,7 @@ header .navbar a:hover{
     font-weight: bold;
     line-height: 30px;
     font-family: PMinLiu;
+    text-decoration: none;
 }
 
 /* 第一區header introduce */
@@ -335,6 +336,7 @@ header .navbar a:hover{
         color:black;
         padding: 20px;
         line-height: 30px;
+        text-decoration: none;
     }
     #menu-bar{
         display:initial;
@@ -593,6 +595,7 @@ header .navbar a:hover{
         color:black;
         padding: 20px;
         line-height: 30px;
+        text-decoration: none;
     }
     .introduce-content h3{
         font-size: 30px;
