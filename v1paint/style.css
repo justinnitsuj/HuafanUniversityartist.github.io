@@ -528,7 +528,8 @@ header .navbar a:hover{
     }
     .artist-second .work-text .work-pic{
     
-        height: 100vh;
+        height: 500px; 
+        
         margin: auto;
         display: flex;
         flex-wrap: wrap;
@@ -541,6 +542,9 @@ header .navbar a:hover{
         border:10px solid black;
         
     }
+    /* .artist-second .work-text{
+        padding: 10px;
+    } */
     /* .artist-second .work-text{
         margin-right: 40px;
     } */
