@@ -83,7 +83,7 @@ header .navbar a:hover{
     flex-wrap: wrap;
     gap:10px;
     min-height: 500px;
-    background: url(../v1paint/images/the-town-bg-01.jpg) no-repeat;
+    background: url(../v1paint/images/banner.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -123,7 +123,7 @@ header .navbar a:hover{
     gap:10px;
     min-height: 500px;
     align-items: center;
-    background: url(../v1paint/images/the-town-bg-01.jpg) no-repeat;
+    background: url(../v1paint/images/banner.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -159,7 +159,7 @@ header .navbar a:hover{
     gap:10px;
     min-height: 500px;
     align-items: center;
-    background: url(../v1paint/images/the-town-bg-01.jpg) no-repeat;
+    background: url(../v1paint/images/banner.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -528,7 +528,7 @@ header .navbar a:hover{
     }
     .artist-second .work-text .work-pic{
     
-        height: 500px; 
+        /* height: 500px; */
         
         margin: auto;
         display: flex;
@@ -597,9 +597,9 @@ header .navbar a:hover{
         display:flex;
         flex-wrap: wrap;
         gap:10px;
-        min-height: 300px;
+        min-height: 400px;
 
-        background: url(../v1paint/images/the-town-bg-01.jpg) no-repeat;
+        background: url(../v1paint/images/banner.jpg) no-repeat;
         background-repeat: no-repeat;
         background-size: cover;
         background-position:center;
