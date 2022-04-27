@@ -581,14 +581,14 @@ header .navbar a:hover{
     }
     .artist-second .work-text .work-pic{
     
-        /* height: 500px; */
+        height: 500px;
         
         margin: auto;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        /* vertical-align: middle; */
+        vertical-align: middle;
         
     }
     .artist-second .work-text img{
