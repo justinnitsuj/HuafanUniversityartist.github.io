@@ -78,14 +78,20 @@ header .navbar a:hover{
 }
 /* 第二區 首頁 */
 
-.home{
+/* .home{
     display:flex;
     flex-wrap: wrap;
     gap:10px;
     min-height: 500px;
-    background: url(../v1paint/images/banner.jpg) no-repeat;
+    background: url(../v1paint/images/banner800x600.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+} */
+.home .banner-desktop img{
+    max-width: 100%;
+}
+.home .banner-mobile img{
+    max-width: 100%;
 }
 .content{
     padding: 30px;
@@ -292,6 +298,12 @@ header .navbar a:hover{
 }
 
 @media(min-width:1024px) and (max-width:3000px){
+    .home .banner-desktop img{
+        max-width: 100%;
+    }
+    .home .banner-mobile img{
+        display: none;
+    }
     .artist-second .work-text .work-pic{
         
         height: 100vh;
@@ -361,7 +373,12 @@ header .navbar a:hover{
 
 /* RWD平板版 */
 @media(min-width:720px) and (max-width:1023.99px){
-    
+    .home .banner-desktop img{
+        max-width: 100%;
+    }
+    .home .banner-mobile img{
+        display: none;
+    }
     header h1{
         font-size: 22px;
         font-weight: normal;
@@ -593,17 +610,26 @@ header .navbar a:hover{
 }
 /* RWD手機板 */
 @media(min-width:300px) and (max-width:719.99px){
-    .home{
+    /* .home{
         display:flex;
         flex-wrap: wrap;
         gap:10px;
         min-height: 400px;
 
-        background: url(../v1paint/images/banner.jpg) no-repeat;
+        background: url(../v1paint/images/banner800x600.jpg) no-repeat;
         background-repeat: no-repeat;
         background-size: cover;
         background-position:center;
+        margin-top: 40px;
+        
 
+    } */
+    .home .banner-desktop img{
+        display: none;
+    }
+    .home .banner-mobile img{
+        max-width: 100%;
+        margin-top: 40px;
     }
     #menu-bar{
         display:initial;
@@ -634,6 +660,11 @@ header .navbar a:hover{
     header .navbar.active{
         clip-path: polygon(0 0,100% 0, 100% 100%, 0 100%);
         padding:10px;
+    }
+    .content {
+        /* padding: 30px; */
+        margin-top: 10px;
+        text-align: center;
     }
     .content h2{
         font-size: 40px;
