@@ -237,6 +237,7 @@ header .navbar a:hover{
 .home-more .box-container_2 .box .location{
     position: absolute;
     color:white;
+    background-color:black;
     opacity: 0.8;
     font-size: 20px;
     top:88%;
@@ -305,6 +306,7 @@ header .navbar a:hover{
 .home-more .box-container_3 .box .location{
     position: absolute;
     color:white;
+    background-color:black;
     opacity: 0.8;
     font-size: 20px;
     top:88%;
@@ -372,6 +374,7 @@ header .navbar a:hover{
 .home-more .box-container_4 .box .location{
     position: absolute;
     color:white;
+    background-color:black;
     opacity: 0.8;
     font-size: 20px;
     top:88%;
@@ -440,6 +443,7 @@ header .navbar a:hover{
 .home-more .box-container_5 .box .location{
     position: absolute;
     color:white;
+    background-color:black;
     opacity: 0.8;
     font-size: 20px;
     top:88%;
@@ -657,6 +661,14 @@ header .navbar a:hover{
     margin-top: 10px;
     padding-bottom: 20px;
     padding: 10px;
+}
+.container-1 .map p{
+    font-size: 30px;
+    padding: 0px 5px 10px 5px;
+    font-weight: bolder;
+}
+.container-1 .map iframe{
+    height:400px;
 }
 
 @media(min-width:1024px) and (max-width:3000px){
@@ -1140,7 +1152,12 @@ header .navbar a:hover{
     .home-more .box-container_5 .box .location{
         left:6%;
     }
-
+    .home-more .heading{
+        font-size: 25px;
+    }
+    .home-more .heading-content{
+        font-size: 18px;
+    }
     .introduce-content h3{
         font-size: 30px;
         color: brown;
@@ -1282,7 +1299,8 @@ header .navbar a:hover{
     }
     .menu-pic img{
         
-    
+        padding-top: 50px;
+        padding-bottom: 10px;
         max-width:100%;
     }
     .department-content h3{
@@ -1315,5 +1333,10 @@ header .navbar a:hover{
         margin-top: 10px;
         padding-bottom: 20px;
         padding: 10px;
+    }
+    .container-1 .map p{
+        font-size: 25px;
+        padding: 0px 5px 10px 5px;
+        font-weight: bolder;
     }
 }
