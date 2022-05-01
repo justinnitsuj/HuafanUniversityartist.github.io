@@ -716,6 +716,9 @@ header .navbar a:hover{
         text-align: center;
         font-size: 30px;
     }
+    .artist-second .work-text h5{
+        line-height: 40px;
+    }
     .artist-second .artist-text h2{
         font-size: 50px;
     }
@@ -905,6 +908,9 @@ header .navbar a:hover{
         font-size: 20px;
         margin-top: 25px;
         padding: 10px;
+    }
+    .artist-second .work-text h5{
+        line-height: 32px;
     }
     .artist-second .work-text .text-version-1 h1{
         font-size: 22px;
