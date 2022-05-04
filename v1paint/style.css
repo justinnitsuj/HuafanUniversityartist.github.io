@@ -690,6 +690,9 @@ header .navbar a:hover{
     .artist-first .banner-mobile img{
         display: none;
     }
+    .artist-first .banner-desktop{
+        padding-top: 20px;
+    }
     .artist-second .work-text .work-pic{
         
         height: 100vh;
@@ -1009,6 +1012,15 @@ header .navbar a:hover{
         margin-top: 10px;
         padding-bottom: 20px;
         padding: 10px;
+    }
+    .home .banner-desktop{
+        padding-top: 40px;
+    }
+    .introduce .banner-desktop{
+        padding-top: 40px;
+    }
+    .artist-first .banner-desktop{
+        padding-top: 40px;
     }
 
 }
