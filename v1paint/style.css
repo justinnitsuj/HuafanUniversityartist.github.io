@@ -1097,11 +1097,11 @@ header .navbar a:hover{
         text-align: center;
     }
     .content h2{
-        font-size: 40px;
+        font-size: 20px;
         color:brown;
     }
     .content h3{
-        font-size: 18px;
+        font-size: 20px;
         color:brown;
     }
     .content h4{
@@ -1109,7 +1109,15 @@ header .navbar a:hover{
         color:brown;
     }
     .content p{
-        font-size: 18px;
+        font-size: 16px;
+        font-family: PMingLiU;
+        color:black;
+        padding: 20px;
+        line-height: 30px;
+        text-decoration: none;
+    }
+    .content p a{
+        font-size: 16px;
         font-family: PMingLiU;
         color:black;
         padding: 20px;
