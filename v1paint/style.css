@@ -131,8 +131,14 @@ header .navbar a:hover{
 }
 .home-more h2{
     font-size: 20px;
-    padding: 0px 30px 30px 30px;
+    padding: 0px 30px 10px 30px;
 }
+.home-more h4{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    color: rgb(107, 42, 42);
+} 
 .home-more .box-container_1{
     display: flex;
     flex-wrap: wrap;
