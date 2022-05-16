@@ -116,9 +116,10 @@ header .navbar a:hover{
     padding-bottom: 10px;
     padding-right: 10px;
     padding-left: 10px;
-    font-size: 17px;
+    font-size: 20px;
     text-align: center;
     line-height: 28px;
+    font-weight: bolder;
 }
 .report-container .report-link img{
     max-width: 100%;
