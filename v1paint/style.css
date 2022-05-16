@@ -93,6 +93,37 @@ header .navbar a:hover{
 .home .banner-mobile img{
     max-width: 100%;
 }
+.report-container .report-text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.report-container .report-text h2{
+    font-size: 20px;
+    border:2px solid black;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.report-container .report-link{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.report-container .report-link a{
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 17px;
+    text-align: center;
+    line-height: 28px;
+}
+.report-container .report-link img{
+    max-width: 100%;
+    margin-top: 10px;
+}
 .content{
     padding: 30px;
     margin-top: 30px;
@@ -678,6 +709,20 @@ header .navbar a:hover{
 }
 
 @media(min-width:1024px) and (max-width:3000px){
+    .report-container .report-link a{
+        padding-bottom: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .report-container .report-text h2{
+        font-size: 40px;
+        border:2px solid black;
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
     .home .banner-desktop img{
         max-width: 100%;
     }
@@ -771,6 +816,20 @@ header .navbar a:hover{
 
 /* RWD平板版 */
 @media(min-width:720px) and (max-width:1023.99px){
+    .report-container .report-link a{
+        padding-bottom: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 23px;
+        line-height: 33px;
+    }
+    .report-container .report-text h2{
+        font-size: 30px;
+        border:2px solid black;
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
     .home .banner-desktop img{
         max-width: 100%;
     }
